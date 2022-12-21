@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(periphery C)
 
-option(BUILD_TESTS "Build test programs" ON)
+option(BUILD_TESTS "Build test programs" OFF)
 
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
